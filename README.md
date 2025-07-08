@@ -1,37 +1,31 @@
-# 🚀 Learning Go Book – Code Examples Repository
+# 📘 Learning Go Book – Code Examples
 
-![Go CI](https://github.com/YOUR_USERNAME/learning-go-book-examples/actions/workflows/go-checks.yml/badge.svg)
+This repository tracks my hands-on journey through the **"Learning Go"** book. Each chapter folder contains self-contained examples, tested locally using Makefiles.
 
-Welcome to the **"Learning Go" Book Companion Repository** – a professionally structured, CI/CD-ready, and version-controlled learning path for mastering Go through real examples and modern tooling.
+## ✅ Chapter Progress
 
----
+| Chapter | Description                 | Status |
+|---------|-----------------------------|--------|
+| ch1     | Hello World, setup basics   | ✅     |
+| ch2     | Data types, flow control    | ❌     |
 
-## 📚 Chapter Progress
-
-| Chapter | Description                        | Status |
-|---------|------------------------------------|--------|
-| Ch 1    | Setup, Hello World, Modules        | ✅     |
-| Ch 2    | Built-in Types and Variables       | ❌     |
-| Ch 3    | Functions and Error Handling       | ❌     |
-| Ch 4    | Structs, Interfaces, and Methods   | ❌     |
-| Ch 5    | Concurrency                        | ❌     |
-
----
-
-## 📁 Folder Structure
+## 🛠 How to Run
 
 ```bash
-learning-go-book-examples/
-├── ch1/
-│   └── prog-hello/
-│       ├── main.go
-│       └── go.mod
-├── .github/
-│   └── workflows/
-│       └── go-checks.yml
-├── blog.md
-├── issues.md
-└── README.md
+cd ch1/prog-hello
+make run
 ```
 
----
+## 📂 Structure
+```
+learning-go-book-examples/
+  ├── ch1/
+  ├── ch2/
+  ├── assets/
+  ├── .github/workflows/
+  └── README.md
+```
+
+## 🧪 CI/CD – GitHub Actions
+
+Every push runs formatting and build checks via GitHub Actions.
